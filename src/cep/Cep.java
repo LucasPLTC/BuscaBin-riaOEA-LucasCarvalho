@@ -1,7 +1,6 @@
+package cep;
 
-//package cep;
 
-import static cep.BinaryBSC.Busca;
 import java.io.DataInput;
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -93,11 +92,5 @@ public class Cep {
     public void setCep(String cep) {
         this.cep = cep;
     }
-       
-         public static void main(String[] args) throws IOException {
-            Busca();
-             
-        }
-    
-    
+          
 }

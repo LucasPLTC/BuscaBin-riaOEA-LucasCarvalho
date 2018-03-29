@@ -1,10 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-//package cep;
-
+package cep;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -22,14 +16,14 @@ public class BinaryBSC {
     
        
     
-    public static void Busca()throws IOException
+    public static void main(String args[])
     {
         String Filename;
         
-        Filename = "/media/aluno/USB DISK/Endereco/cep_ordenado.dat";
+        Filename = "cep_ordenado.dat";
         String Busc = JOptionPane.showInputDialog(null, "CEP", "Insira o CEP",0);
         try{
-            RandomAccessFile C = new RandomAccessFile("/media/aluno/USB DISK/Endereco/cep_ordenado.dat","r");
+            RandomAccessFile C = new RandomAccessFile("cep_ordenado.dat","r");
             Cep lin = new Cep();
             long top = 0;
             long bot = ((C.length()/300)-1);
