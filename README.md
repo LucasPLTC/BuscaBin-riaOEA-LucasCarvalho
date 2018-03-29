@@ -1,4 +1,4 @@
-#Trabalho de Busca Binária - LUCAS SILVA CARVALHO
+Trabalho de Busca Binária - LUCAS SILVA CARVALHO
 Trabalho de BuscaBinária de um Arquivo de Cep.Dat ordenado.
 
 Para Executar este projeto, existem duas opçes. o Clone do Repositório em alguma IDE,
