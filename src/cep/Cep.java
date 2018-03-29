@@ -1,5 +1,5 @@
 
-package cep;
+//package cep;
 
 import static cep.BinaryBSC.Busca;
 import java.io.DataInput;
